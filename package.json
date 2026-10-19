@@ -1,0 +1,30 @@
+{
+  "name": "@keychord/chords-raycast",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeyChord/chords-raycast"
+  },
+  "type": "module",
+  "imports": {
+    "#/*": "./src/js/*"
+  },
+  "scripts": {
+    "test": "bun test --isolate"
+  },
+  "dependencies": {
+    "array-uniq": "latest",
+    "brace-expansion": "latest",
+    "js-yaml": "latest",
+    "just-zip-it": "latest"
+  },
+  "devDependencies": {
+    "@keychord/chordtest": "workspace:*",
+    "@keychord/config": "catalog:",
+    "@keychord/tsconfig": "catalog:",
+    "@types/bun": "latest",
+    "@types/js-yaml": "latest",
+    "@types/node": "26.6.5"
+  },
+  "packageManager": "pnpm@12.11.2"
+}
